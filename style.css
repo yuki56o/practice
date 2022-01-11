@@ -85,7 +85,7 @@ a{
   align-items:center;
   align-content:center;
   margin:20px;
-  padding:0px 10px;
+  padding:2px 10px;
   font-weight:900;
   font-size:1.1em;
   line-height:1;
@@ -168,6 +168,30 @@ ul, ol {
     border-bottom: solid 3px #5472cd;
     bottom: -3px;
     width: 20%;
+}
+
+.box26 {
+  position: relative;
+  margin: 2em 0;
+  padding: 0.5em 1em;
+  border: solid 3px #95ccff;
+  border-radius: 8px;
+}
+.box26 .box-title {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  font-size: 19px;
+  background: #FFF;
+  color: #95ccff;
+  font-weight: bold;
+}
+.box26 p {
+  margin: 0; 
+  padding: 0;
 }
 
 .title{
