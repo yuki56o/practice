@@ -141,12 +141,12 @@ a{
   margin-top:100px
 }.btn.twtr:after{content:"\1F426";padding-left:5px}
 
-ul, ol {
+ul{
     padding: 0;
     position: relative;
-  }
+}
   
-  ul li, ol li {
+  ul li{
     color: black;
     border-left: solid 8px rgb(125, 170, 255);/*左側の線*/
     background: whitesmoke;/*背景色*/
@@ -293,7 +293,19 @@ img.image2{
 .cplink {
 	display: inline-block;
 	transition: .3s;
+
 }
 .cplink:hover {
 	transform: rotate(2deg);
 }
+
+ol{
+  list-style-type: disc;
+  padding-right: 10px;
+  padding-left: 25px;
+  padding-top: 2px;
+  padding-bottom: 2px
+}
+  ol li{
+    color: black;
+  }
