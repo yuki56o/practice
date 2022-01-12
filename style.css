@@ -218,6 +218,18 @@ ul, ol {
   padding: 0;
 }
 
+.box22{
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  background: #f4f4f4;
+  border-left: solid 6px #5bb7ae;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
+}
+.box22 p {
+  margin: 0; 
+  padding: 0;
+}
+
 img.image1{
 
   width: 50px;
@@ -258,4 +270,30 @@ img.image2{
 .sample{
   width: 80%;
   height:auto
+}
+
+.url{
+  padding: 0 10px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(100, 200, 255) 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
+}
+.url:hover{
+  background-position: -100% 0;
+  color: #fff;
+}
+
+.mgr-20{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.cplink {
+	display: inline-block;
+	transition: .3s;
+}
+.cplink:hover {
+	transform: rotate(2deg);
 }
